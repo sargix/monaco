@@ -1,0 +1,217 @@
+@media (min-width: 320px) and (orientation: portrait) {
+  div.menu {
+    width: 45%;
+  }
+  .btn {
+    font-size: 1.8rem;
+  }
+  div.icon {
+    width: 10rem;
+    height: 8rem;
+  }
+  div.flag {
+    width: 10rem;
+    height: 6rem;
+  }
+  .title-icon {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  div.img-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  div.img-inf {
+    flex-basis: 95%;
+    margin: 1rem;
+  }
+  p.history-descr {
+    font-size: 1.8rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 360px) and (orientation: portrait) {
+  div.menu {
+    width: 43%;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+  div.icon {
+    width: 12rem;
+    height: 10rem;
+  }
+  div.flag {
+    width: 12rem;
+    height: 8rem;
+  }
+  .title-icon {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 2.1rem;
+  }
+  p.history-descr {
+    font-size: 2rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.1rem;
+  }
+  .hist-element:hover {
+    width: 10rem;
+    height: 13rem;
+  }
+}
+
+@media (min-width: 410px) and (orientation: portrait) {
+  div.menu {
+    width: 40%;
+  }
+  .btn {
+    font-size: 2.2rem;
+  }
+  div.icon {
+    width: 15rem;
+    height: 12rem;
+  }
+  div.flag {
+    width: 15rem;
+    height: 9rem;
+  }
+  .title-icon {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 3.3rem;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 2.4rem;
+  }
+  p.history-descr {
+    font-size: 2.4rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.2rem;
+  }
+  .hist-element:hover {
+    width: 11rem;
+    height: 15rem;
+  }
+  .hist-element {
+    width: 7rem;
+    height: 7rem;
+  }
+  .hist-element::before {
+    width: 4rem;
+    height: 4rem;
+    border-width: 0.9rem;
+  }
+}
+
+@media (min-width: 760px) and (orientation: portrait) {
+  div.menu {
+    width: 37%;
+  }
+  .btn {
+    font-size: 3.5rem;
+  }
+  div.icon {
+    width: 25rem;
+    height: 22rem;
+  }
+  div.flag {
+    width: 25rem;
+    height: 15rem;
+  }
+  .title-icon {
+    font-size: 3.2rem;
+  }
+  h1 {
+    font-size: 3.7rem;
+  }
+  div.img-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  div.img-inf {
+    flex-basis: 80%;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 3.4rem;
+  }
+  p.history-descr {
+    font-size: 3rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.6rem;
+  }
+  .hist-element:hover {
+    width: 18rem;
+    height: 17rem;
+  }
+  .hist-element {
+    width: 9rem;
+    height: 9rem;
+  }
+  .hist-element::before {
+    width: 5rem;
+    height: 5rem;
+    border-width: 1.2rem;
+  }
+}
+
+@media (min-width: 1020px) and (orientation: portrait) {
+  div.menu {
+    width: 34%;
+  }
+  .btn {
+    font-size: 4.5rem;
+  }
+  div.icon {
+    width: 35rem;
+    height: 32rem;
+  }
+  div.flag {
+    width: 35rem;
+    height: 22rem;
+  }
+  .title-icon {
+    font-size: 4.2rem;
+  }
+  h1 {
+    font-size: 4.4rem;
+  }
+  div.img-inf {
+    flex-basis: 85%;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 4.7rem;
+  }
+  p.history-descr {
+    font-size: 4rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 2.2rem;
+  }
+  .hist-element:hover {
+    width: 22rem;
+    height: 25rem;
+  }
+  .hist-element {
+    width: 12rem;
+    height: 12rem;
+  }
+  .hist-element::before {
+    width: 7rem;
+    height: 7rem;
+    border-width: 1.8rem;
+  }
+}

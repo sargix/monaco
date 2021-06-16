@@ -1,0 +1,365 @@
+@media (min-width: 530px) and (orientation: landscape) {
+  div.menu {
+    width: 36%;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+  div.icon {
+    width: 12rem;
+    height: 10rem;
+  }
+  div.flag {
+    width: 12rem;
+    height: 7rem;
+  }
+  .title-icon {
+    font-size: 1.8rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  div.img-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 80%;
+    height: 75vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 1.9rem;
+  }
+  p.history-descr {
+    font-size: 1.6rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1rem;
+  }
+  .hist-element:hover {
+    width: 10rem;
+    height: 10.5rem;
+  }
+  .hist-element {
+    width: 4rem;
+    height: 4rem;
+  }
+  .hist-element::before {
+    width: 2rem;
+    height: 2rem;
+    border-width: 0.5rem;
+  }
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+  div.menu {
+    width: 31%;
+  }
+  .btn {
+    font-size: 2.1rem;
+  }
+  div.icon {
+    width: 13rem;
+    height: 11rem;
+  }
+  div.flag {
+    width: 13rem;
+    height: 8rem;
+  }
+  .title-icon {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 80%;
+    height: 80vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 2.2rem;
+  }
+  p.history-descr {
+    font-size: 1.8rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.1rem;
+  }
+  .hist-element:hover {
+    width: 12rem;
+    height: 12rem;
+  }
+  .hist-element {
+    width: 5rem;
+    height: 5rem;
+  }
+  .hist-element::before {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-width: 0.6rem;
+  }
+}
+
+@media (min-width: 730px) and (orientation: landscape) {
+  div.menu {
+    width: 28%;
+  }
+  .btn {
+    font-size: 2.2rem;
+  }
+  div.icon {
+    width: 14rem;
+    height: 12rem;
+  }
+  div.flag {
+    width: 14rem;
+    height: 9rem;
+  }
+  .title-icon {
+    font-size: 2.2rem;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 80%;
+    height: 80vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 2.8rem;
+  }
+  p.history-descr {
+    font-size: 2rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.2rem;
+  }
+  .hist-element:hover {
+    width: 12rem;
+    height: 14rem;
+  }
+  .hist-element {
+    width: 6rem;
+    height: 6rem;
+  }
+  .hist-element::before {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.7rem;
+  }
+}
+
+@media (min-width: 810px) and (orientation: landscape) {
+  div.menu {
+    width: 26%;
+  }
+  .btn {
+    font-size: 2.3rem;
+  }
+  div.icon {
+    width: 15rem;
+    height: 13rem;
+  }
+  div.flag {
+    width: 15rem;
+    height: 9.5rem;
+  }
+  .title-icon {
+    font-size: 2.5rem;
+  }
+  h1 {
+    font-size: 3.8rem;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 80%;
+    height: 80vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 3rem;
+  }
+  p.history-descr {
+    font-size: 2.2rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.1rem;
+  }
+  .hist-element:hover {
+    width: 11rem;
+    height: 12.5rem;
+  }
+  .hist-element {
+    width: 6rem;
+    height: 6rem;
+  }
+  .hist-element::before {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-width: 0.8rem;
+  }
+}
+
+@media (min-width: 1020px) and (orientation: landscape) {
+  div.menu {
+    width: 68%;
+  }
+  .btn {
+    font-size: 2.3rem;
+  }
+  div.icon {
+    width: 30rem;
+    height: 24rem;
+  }
+  div.flag {
+    width: 30rem;
+    height: 19rem;
+  }
+  .title-icon {
+    font-size: 4rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  div.img-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 45%;
+    height: 50vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 2.8rem;
+  }
+  p.history-descr {
+    font-size: 2.8rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.5rem;
+  }
+  .hist-element:hover {
+    width: 14rem;
+    height: 18rem;
+  }
+  .hist-element {
+    width: 8rem;
+    height: 8rem;
+  }
+  .hist-element::before {
+    width: 4rem;
+    height: 4rem;
+    border-width: 1rem;
+  }
+}
+
+@media (min-width: 1240px) and (orientation: landscape) {
+  div.menu {
+    width: 62%;
+  }
+  .btn {
+    font-size: 2.3rem;
+  }
+  div.icon {
+    width: 25rem;
+    height: 21rem;
+  }
+  div.flag {
+    width: 25rem;
+    height: 15rem;
+  }
+  .title-icon {
+    font-size: 2.6rem;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  div.img-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 45%;
+    height: 50vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 3.4rem;
+  }
+  p.history-descr {
+    font-size: 2.9rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 2rem;
+  }
+  .hist-element:hover {
+    width: 18rem;
+    height: 25rem;
+  }
+  .hist-element {
+    width: 10rem;
+    height: 10rem;
+  }
+  .hist-element::before {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-width: 1.4rem;
+  }
+}
+
+@media (min-width: 1360px) and (orientation: landscape) {
+  div.menu {
+    width: 55%;
+  }
+  .btn {
+    font-size: 2.5rem;
+  }
+  div.icon {
+    width: 26rem;
+    height: 20rem;
+  }
+  div.flag {
+    width: 26rem;
+    height: 16rem;
+  }
+  .title-icon {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 4.5rem;
+  }
+  div.img-wrap {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  div.img-inf {
+    margin: 1rem;
+    flex-basis: 45%;
+    height: 60vh;
+  }
+  div.img-inf .wrap-inf span {
+    font-size: 3rem;
+  }
+  p.history-descr {
+    font-size: 2.9rem;
+  }
+  .hist-element:hover > .hist-txt {
+    font-size: 1.9rem;
+  }
+  .hist-element:hover {
+    width: 18rem;
+    height: 22rem;
+  }
+  .hist-element {
+    width: 8rem;
+    height: 8rem;
+  }
+  .hist-element::before {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-width: 1rem;
+  }
+}

@@ -1,0 +1,144 @@
+section.history {
+  min-height: 101vh;
+  position: relative;
+  overflow: hidden;
+}
+
+div.wrap-section {
+  width: 100%;
+  min-height: 101vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.bgs {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  width: 100%;
+  min-height: 101vh;
+  z-index: -1;
+}
+
+div.slider1 {
+  top: 0;
+  left: 0;
+  background-image: url("../images/hist_1.jpg");
+  animation: 15s s1 infinite alternate linear;
+}
+div.slider2 {
+  top: 0;
+  left: 0;
+  background-image: url("../images/hist_2.jpg");
+  animation: 15s s2 infinite linear alternate;
+}
+div.slider3 {
+  top: 0;
+  left: 0;
+  background-image: url("../images/hist_3.jpg");
+  animation: 15s s3 infinite linear alternate;
+}
+
+h1.shadow {
+  text-shadow: 8px 5px 5px rgba(0, 0, 0, 0.83);
+}
+
+p.history-descr {
+  text-align: center;
+  padding: 3rem;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 8px 5px 5px rgba(0, 0, 0, 0.83);
+}
+
+.hist-element {
+  display: block;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  background-color: #0091AD;
+  border-radius: 50%;
+  transition: 0.4s;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.hist-txt {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 1rem;
+  color: aliceblue;
+  font-size: 0rem;
+  opacity: 0;
+  transition: 0.4s;
+}
+
+.hist-element::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: .7rem solid #A01A58;
+  transition: .2s;
+}
+
+.hist-element:hover {
+  width: 10rem;
+  height: 12rem;
+  border-radius: 20%;
+}
+
+.hist-element:hover::before  {
+  opacity: 0;
+}
+
+.hist-element:hover > .hist-txt {
+  opacity: 1;
+  font-size: 1rem;
+}
+
+.hist-element:nth-of-type(1) {
+  top: 10%;
+  left: 10%;
+}
+.hist-element:nth-of-type(2) {
+  bottom: 5%;
+  left: 10%;
+}
+.hist-element:nth-of-type(3) {
+  bottom: 5%;
+  right: 10%;
+}
+.hist-element:nth-of-type(4) {
+  top: 10%;
+  right: 10%;
+}
+.hist-element:nth-of-type(5) {
+  top: 45%;
+  left: 10%;
+}
+.hist-element:nth-of-type(6) {
+  top: 20%;
+  right: 50%;
+  transform: translateX(50%);
+}
+.hist-element:nth-of-type(7) {
+  top: 45%;
+  right: 10%;
+}
+
+.hist-element:nth-of-type(8) {
+  top: 60%;
+  right: 50%;
+  transform: translateX(50%);
+}

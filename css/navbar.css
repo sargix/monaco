@@ -1,0 +1,54 @@
+nav {
+  position: relative;
+  max-width: 100%;
+  padding: 2rem;
+  display: flex;
+}
+
+div.menu {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn {
+  /* border: 1px solid red; */
+  border: none;
+  background: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  margin: 1rem;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 2rem;
+}
+.btn2 {
+  color: #f88383;
+}
+
+.btn2:hover {
+  color: #fff;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: red;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn2::before {
+  bottom: 0;
+  border-radius: 70% 70% 0 0;
+}
+.btn2:hover::before {
+  height: 180%;
+}
